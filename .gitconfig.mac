@@ -18,5 +18,5 @@
   cmd = open -W -a Meld --args --auto-merge \"$PWD/$LOCAL\" \"$PWD/$BASE\" \"$PWD/$REMOTE\" --output=\"$PWD/$MERGED\"
 
 [alias]
-	lg = !git log --color --graph --date=iso --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad, %ar) %C(bold blue)<%an>%Creset' --abbrev-commit
+  lg = !git log --color --graph --date=iso --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad, %ar) %C(bold blue)<%an>%Creset' --abbrev-commit
   l = "!git log --pretty=reference --date=iso --color"
