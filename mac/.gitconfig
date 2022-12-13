@@ -1,6 +1,6 @@
 [user]
-	name = William Comnisky
-	email = w.comnisky@gmail.com
+  name = William Comnisky
+  email = w.comnisky@gmail.com
 
 [diff]
   tool = meld
