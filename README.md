@@ -1,3 +1,3 @@
 # machine-setup
 
-The root dir represents `~/`
+The root dir of `mac` and `linux` represents the `~/` dir.
