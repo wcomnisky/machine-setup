@@ -1,0 +1,22 @@
+[user]
+	name = William Comnisky
+	email = w.comnisky@gmail.com
+
+[diff]
+  tool = meld
+[difftool]
+  prompt = true
+[difftool "meld"]
+  trustExitCode = true
+  cmd = open -W -a Meld --args \"$LOCAL\" \"$PWD/$REMOTE\"
+[merge]
+  tool = meld
+[mergetool]
+  prompt = true
+[mergetool "meld"]
+  trustExitCode = true
+  cmd = open -W -a Meld --args --auto-merge \"$PWD/$LOCAL\" \"$PWD/$BASE\" \"$PWD/$REMOTE\" --output=\"$PWD/$MERGED\"
+
+[alias]
+	lg = !git log --color --graph --date=iso --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad, %ar) %C(bold blue)<%an>%Creset' --abbrev-commit
+  l = "!git log --pretty=reference --date=iso --color"
